@@ -10,7 +10,7 @@ module.exports = {
     siteTitle: `Alexi Grube`,
     siteTitleAlt: `Alexi Grube - Artist Portfolio`,
     siteHeadline: `Alexi Grube - Artist Portfolio`,
-    siteUrl: `https://alexigrube.com`,
+    siteUrl: `https://main.d273d2lhth7xwx.amplifyapp.com/`,
     siteDescription: `Minimalistic portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
