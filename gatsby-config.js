@@ -11,7 +11,7 @@ module.exports = {
     siteTitleAlt: `Alexi Grube - Artist Portfolio`,
     siteHeadline: `Alexi Grube - Artist Portfolio`,
     siteUrl: `https://alexigrube.com`,
-    siteDescription: `Minimalistic portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images`,
+    siteDescription: `Alexi Grube - Artist Portfolio.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@lexarito_yt`,
