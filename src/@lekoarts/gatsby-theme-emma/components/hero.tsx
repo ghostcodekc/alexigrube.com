@@ -17,7 +17,6 @@ const Hero = ({ children, color = ``, image, slim = false }: HeroProps) => (
       position: `relative`,
       height: slim ? [`400px`, `500px`] : [`500px`, `600px`, `700px`, `40vw`],
       maxHeight: `1200px`,
-      width: `100%`,
       overflow: `hidden`,
     }}
   >

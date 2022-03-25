@@ -20,11 +20,13 @@ const BGImage = ({ children, color = ``, slim }: BGImageProps) => {
         width: `100%`,
         height: slim ? [`400px`, `500px`] : [`500px`, `600px`, `700px`, `40vw`],
         maxHeight: `1200px`,
+        margin: `-100px auto`,
+        //margin-left: `1002px`,
         zIndex: 1,
         // @ts-ignore
         ".gatsby-image-wrapper": {
-          position: `static !important`,
-          filter: `grayscale(100%)`,
+          position: `sticky !important`,
+          filter: `grayscale(10%)`,
           "> div": {
             paddingBottom: `0 !important`,
             height: slim
