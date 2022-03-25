@@ -15,6 +15,9 @@ module.exports = {
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@lexarito_yt`,
+    basePath: options.basePath,
+    projectsPath: options.projectsPath,
+    pagesPath: options.pagesPath,
   },
   plugins: [
     {
