@@ -20,12 +20,10 @@ const BGImage = ({ children, color = ``, slim }: BGImageProps) => {
         width: `100%`,
         height: slim ? [`400px`, `500px`] : [`500px`, `600px`, `700px`, `40vw`],
         maxHeight: `1200px`,
-        margin: `-100px auto`,
-        //margin-left: `1002px`,
         zIndex: 1,
         // @ts-ignore
         ".gatsby-image-wrapper": {
-          position: `sticky !important`,
+          position: `static !important`,
           filter: `grayscale(10%)`,
           "> div": {
             paddingBottom: `0 !important`,
@@ -44,7 +42,7 @@ const BGImage = ({ children, color = ``, slim }: BGImageProps) => {
           width: `100%`,
           mixBlendMode: colorMode === `light` ? `overlay` : `soft-light`,
           zIndex: 2,
-          background: color ? `linear-gradient(to top, rgba(0, 0, 0, 0) 0%, ${rgba(color!, 1)} 100%)` : null,
+          background: color ? `linear-gradient(to top, rgba(0, 0, 0, 0) 0%, ${rgba(color!, 1)} 75%)` : null,
         },
         "&:after": {
           backfaceVisibility: `hidden`,
