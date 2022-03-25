@@ -52,8 +52,8 @@ const BGImage = ({ children, color = ``, slim }: BGImageProps) => {
           top: 0,
           position: `absolute`,
           width: `100%`,
-          background: `linear-gradient(to bottom, ${shade} 0%, ${bg} 100%),
-      linear-gradient(135deg, ${shade} 40%, ${bg} 100%), linear-gradient(-135deg, ${shade} 40%, ${bg} 100%)`,
+          background: `linear-gradient(to bottom, ${shade} 50%, ${bg} 100%),
+      linear-gradient(135deg, ${shade} 100%, ${bg} 100%), linear-gradient(-135deg, ${shade} 100%, ${bg} 100%)`,
         },
       }}
     >

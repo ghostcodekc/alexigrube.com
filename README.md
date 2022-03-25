@@ -92,7 +92,7 @@ New projects will be shown on the index page of this theme and can be added by c
 
 ```md
 ---
-client: "LekoArts"
+client: "null"
 title: "Theme"
 cover: "./image.jpg"
 date: "2019-06-10"

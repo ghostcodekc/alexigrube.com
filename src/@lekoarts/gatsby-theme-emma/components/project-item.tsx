@@ -54,7 +54,7 @@ const ProjectItem = ({ node, style, eager }: ProjectItemProps) => (
           textDecoration: `none`,
           "&:hover": {
             color: `white`,
-            opacity: 1,
+            opacity: .5,
             textDecoration: `none`,
           },
         },
@@ -89,7 +89,7 @@ const ProjectItem = ({ node, style, eager }: ProjectItemProps) => (
             zIndex: -2,
           }}
         />
-        <div sx={{ fontSize: 5, fontWeight: `bold` }}>{node.client}</div>
+        <div sx={{ fontSize: 5, fontWeight: `bold` }}>{node.title}</div>
         <div sx={{ fontSize: 2 }}>{node.service}</div>
       </Link>
     </div>

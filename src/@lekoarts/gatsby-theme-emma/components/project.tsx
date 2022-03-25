@@ -49,9 +49,9 @@ const Project = ({ data: { project } }: ProjectProps) => {
         pathname={project.slug}
         image={project.cover.childImageSharp.resize!.src}
       >
-        <meta name="twitter:label1" value="Client" />
+        <meta name="twitter:label1" value="Title" />
         <meta name="twitter:label2" value="Date" />
-        <meta name="twitter:data1" value={project.client} />
+        <meta name="twitter:data1" value={project.title} />
         <meta name="twitter:data2" value={project.date} />
       </SEO>
       <Hero image={project.cover.childImageSharp.gatsbyImageData} color={project.color}>
